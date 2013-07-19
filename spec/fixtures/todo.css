@@ -1,0 +1,34 @@
+.totalArea{
+background-color: lightblue;
+}
+.wholeContent{
+margin: 0 auto;
+}
+.titleContent{
+font: 2.5em Helvetica;
+text-align:center;
+}
+.unorderedList{
+margin: 0 auto;
+}
+.addArea{
+list-style: none;
+font: 20px Helvetica;
+margin: 0 auto auto 280px;
+float: left;
+line-height: 60px;
+}
+.addButton{
+font-size: 20px;
+}
+.inputArea{
+font: 20px Helvetica;
+}
+.removeButton{
+font-size: 20px;
+}
+.liArea{
+ line-height: 400px;
+font: 20px Helvetica;
+
+}

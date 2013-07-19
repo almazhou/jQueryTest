@@ -7,15 +7,17 @@
   <link rel="shortcut icon" type="image/png" href="lib/jasmine-1.3.1/jasmine_favicon.png">
 
   <link rel="stylesheet" type="text/css" href="vendor/jasmine/jasmine.css">
+  <link rel="stylesheet" type="text/css" href="spec/fixtures/todo.css">
 
   <script type="text/javascript" src="vendor/jasmine/jasmine.js"></script>
   <script type="text/javascript" src="vendor/jasmine/jasmine-html.js"></script>
 
   <script type="text/javascript" src="vendor/jquery/jquery.js"></script>
 
-  <script type="text/javascript" src="lib/jasmine-jquery.js"></script>
-  <script type="text/javascript" src="spec/suites/jasmine-jquery-spec.js"></script>
-
+   <script type="text/javascript" src="lib/jasmine-jquery.js"></script> 
+    <script type="text/javascript" src="spec/fixtures/Todo.js"></script>
+  <script type="text/javascript" src="spec/suites/TodoSpec.js"></script>
+  
   <script type="text/javascript">
     (function() {
       var jasmineEnv = jasmine.getEnv();
@@ -48,5 +50,14 @@
 </head>
 
 <body>
+  <div class ="wholeContent">
+    <p class ="titleContent">Manage your life with todos!</p>
+    <ul class = "unorderedList">
+      <div class ="addArea">
+        <button class ="addButton">Add</button>
+        <input type = "text" class ="inputArea"/>
+      </div>
+    </ul>
+  </div>
 </body>
 </html>
